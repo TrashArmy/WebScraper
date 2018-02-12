@@ -1,0 +1,51 @@
+Data_Names =
+{
+    "Aluminium" : {
+        "Cans" : [
+            "Coke Can",
+            "Beer Can",
+            "Crumpled Can",
+            "Soda Can",
+            "Budlight Can"
+        ], 
+        "Foil" : [
+            "Aluminium Foil"
+        ]
+    },
+    "Plastic" : {
+        "Bottles": [
+            "Coke Bottle",
+            "Dasani Bottle",
+            "Plastic Bottle",
+            "Crumpled Bottle",
+            "Soda Bottle",
+            "Juice Bottle"
+        ],
+        "Cups" : [
+            "Solo Cup",
+            "Plastic Cup",
+            "Transparent Cup",
+        ],
+        "Box" : [
+            "Plastic Box",
+            "Deli Plastic Box",
+            "Disposable Plastic Box"
+        ]
+    },
+    "Paper" : {
+        "Cardboard": [
+            "Cardboard Box",
+            "Amazon Box",
+            "cardboard cup sleeve",
+            "Cardboard"
+        ],
+        "Paper" : [
+            "Paper cup",
+            "Starbucks cup",
+            "Crumpled Paper",
+            "Paper Bag",
+            "Paper Box",
+            "Paper takeaway box"
+        ]
+    }
+}
