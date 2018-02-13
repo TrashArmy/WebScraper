@@ -16,7 +16,9 @@ def main(args):
 	parser = argparse.ArgumentParser(description='Scrape Google images')
 	parser.add_argument('-s', '--search', default='bananas', type=str, help='search term')
 	parser.add_argument('-n', '--num_images', default=10, type=int, help='num images to save')
-	parser.add_argument('-d', '--directory', default='/home/karvin/Documents/School/TrashArmy/', type=str, help='save directory')
+	parser.add_argument('-d', '--directory', default='/home/karvin/Documents/School/TrashArmy/WebScraper', type=str, help='save directory')
+	parser.add_argument('-p', '--prepend', default='fruit', type=str, help='item type')
+	parser.add_argument('-o', '--offset', default=0, type=int, help='offset for next set')
 	args = parser.parse_args()
 	query = args.search#raw_input(args.search)
 	max_images = args.num_images
@@ -36,9 +38,9 @@ def main(args):
 	        req = urllib2.Request(img, headers={'User-Agent' : header})
 	        raw_img = urllib2.urlopen(req).read()
 	        if len(Type)==0:
-	            f = open(os.path.join(save_directory , "img" + "_"+ str(i)+".jpg"), 'wb')
+	            f = open(os.path.join(save_directory , args.prepend + "_"+ str(i + args.offset).zfill(4) +".jpg"), 'wb')
 	        else :
-	            f = open(os.path.join(save_directory , "img" + "_"+ str(i)+"."+Type), 'wb')
+	            f = open(os.path.join(save_directory , args.prepend + "_"+ str(i + args.offset).zfill(4) +"."+Type), 'wb')
 	        f.write(raw_img)
 	        f.close()
 	    except Exception as e:

@@ -1,55 +1,56 @@
-Data_Names =
-{
-    "Aluminium" : {
-        "Cans" : [
-            "Coke Can",
-            "Beer Can",
-            "Crumpled Can",
-            "Soda Can",
-            "Budlight Can"
-        ], 
-        "Foil" : [
-            "Aluminium Foil"
-        ]
-    },
-    "Plastic" : {
-        "Bottles": [
-            "Coke Bottle",
-            "Dasani Bottle",
-            "Plastic Bottle",
-            "Crumpled Bottle",
-            "Soda Bottle",
-            "Juice Bottle"
-        ],
-        "Cups" : [
-            "Solo Cup",
-            "Plastic Cup",
-            "Transparent Cup",
-        ],
-        "Box" : [
-            "Plastic Box",
-            "Deli Plastic Box",
-            "Disposable Plastic Box"
-        ],
-        "Misc" : [
-            "Cup lids",
-            "Bottle Caps"
-        ]
-    },
-    "Paper" : {
-        "Cardboard": [
-            "Cardboard Box",
-            "Amazon Box",
-            "cardboard cup sleeve",
-            "Cardboard"
-        ],
-        "Paper" : [
-            "Paper cup",
-            "Starbucks cup",
-            "Crumpled Paper",
-            "Paper Bag",
-            "Paper Box",
-            "Paper takeaway box"
-        ]
+
+    {
+        "Aluminium" : {
+            "Cans" : [
+                "Coke_Can",
+                "Beer_Can",
+                "Crumpled_Can",
+                "Soda_Can",
+                "Budlight_Can"
+            ], 
+            "Foil" : [
+                "Aluminium_Foil"
+            ]
+        },
+        "Plastic" : {
+            "Bottles": [
+                "Coke_Bottle",
+                "Dasani_Bottle",
+                "Plastic_Bottle",
+                "Crumpled_Bottle",
+                "Soda_Bottle",
+                "Juice_Bottle"
+            ],
+            "Cups" : [
+                "Solo_Cup",
+                "Plastic_Cup",
+                "Transparent_Cup"
+            ],
+            "Box" : [
+                "Plastic_Box",
+                "Deli_Plastic_Box",
+                "Disposable_Plastic_Box"
+            ],
+            "Misc" : [
+                "Cup_lids",
+                "Bottle_Caps"
+            ]
+        },
+        "Paper" : {
+            "Cardboard": [
+                "Cardboard_Box",
+                "Amazon_Box",
+                "cardboard_cup_sleeve",
+                "Cardboard"
+            ],
+            "Paper" : [
+                "Paper_cup",
+                "Starbucks_cup",
+                "Crumpled_Paper",
+                "Paper_Bag",
+                "Paper_Box",
+                "Paper_takeaway_box"
+            ]
+        }
     }
-}
+
