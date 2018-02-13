@@ -30,6 +30,10 @@ Data_Names =
             "Plastic Box",
             "Deli Plastic Box",
             "Disposable Plastic Box"
+        ],
+        "Misc" : [
+            "Cup lids",
+            "Bottle Caps"
         ]
     },
     "Paper" : {
