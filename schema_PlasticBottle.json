@@ -1,0 +1,16 @@
+{
+    "Plastic" : {
+        "PlasticBottle" : [
+            "Empty_Plastic_Bottle",
+            "Plastic_Water_Bottle",
+            "Empty_Plastic_Soda_Bottle",
+            "Crumpled_Plastic_Bottle"             
+        ], 
+        "PlasticCup" : [
+            "Plastic_Cup",
+            "Clear_Plastic_Cup",
+            "Disposable_Plastic_Cup"
+        ]
+    }
+}
+
